@@ -1,4 +1,8 @@
 #**************** IMPORT PACKAGES ********************
+
+#Stock market analysis is a process that makes use of fundamental analysis 
+#techniques to find investment opportunities in the stock market.
+
 from flask import Flask, render_template, request, flash, redirect, url_for
 import pandas as pd
 import numpy as np
